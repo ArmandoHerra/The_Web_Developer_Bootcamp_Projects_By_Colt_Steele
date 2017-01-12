@@ -1,7 +1,9 @@
+/* Element Selector. */
 body {
     background-color: gray;
 }
 
+/* ID Selector. */
 #first {
     border: blue solid 3px;
     background-color: crimson;
@@ -12,6 +14,7 @@ body {
     background-color: aqua;
 }
 
+/* Class Selector. */
 .pairs {
     border: green solid 3px;
     background-color: mediumpurple;
