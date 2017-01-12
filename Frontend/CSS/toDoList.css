@@ -1,0 +1,18 @@
+body {
+    background-color: gray;
+}
+
+#first {
+    border: blue solid 3px;
+    background-color: crimson;
+}
+
+#last {
+    border: red solid 3px;
+    background-color: aqua;
+}
+
+.pairs {
+    border: green solid 3px;
+    background-color: mediumpurple;
+}
