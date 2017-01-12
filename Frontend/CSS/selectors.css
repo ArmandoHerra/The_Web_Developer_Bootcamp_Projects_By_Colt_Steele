@@ -1,0 +1,26 @@
+/* Star Selector. */
+* {
+    border: lightgray solid 1px;
+}
+
+/* Descendant Selector. */
+li a {
+    
+    border: blue solid 2px;
+    
+}
+
+/* Adjacent Selector. */
+h4 + ul {
+    border: red solid 5px;
+}
+
+/* Attribute Selector. */
+a[href="http://www.google.com"] {
+    background-color: rgba(0,0,0,.2);
+}
+
+/* Nth of Type. */
+ul:nth-of-type(3) {
+    background-color: rgba(0,0,0,.4);
+}
