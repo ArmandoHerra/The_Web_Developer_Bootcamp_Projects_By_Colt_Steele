@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form | Exercise 3</title>
+    </head>
+    <body>
+        <h1>Registration Form | Exercise 3</h1>
+        <form action="/sign-in-url" method="post">
+            <div>
+                <label for="firstName">First Name: </label>
+                <input id="firstName" type="text" required placeholder="John">
+                <label for="lastName">Last Name: </label>
+                <input id="lastName" type="text" required placeholder="Smith">
+            </div>
+            <div>
+                <label for="male">Male</label>
+                <input name="genderChoice" id="male" type="radio" value="male">
+                <label for="female">Female</label>
+                <input name="genderChoice" id="female" type="radio" value="female">
+                <label for="other">Other</label>
+                <input name="genderChoice" id="other" type="radio" value="other">
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input id="email" type="email" required placeholder="your@email.com">
+                <label for="password">Password: </label>
+                <input id="password" type="password" pattern=".{5,10}" required title="Password must be between 5 and 10 characters.">
+            </div>
+            <div>
+                <label for="birthday">Birthday: </label>
+                <select name="month" required>
+                    <option value="Month" selected disabled>Month</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                </select>
+                <select name="Day" required>
+                    <option value="Day" selected disabled>Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+                <select name="Year" required>
+                    <option value="Year" selected disabled>Year</option>
+                    <option value="1995">1995</option>
+                    <option value="1996">1996</option>
+                </select>
+            </div>
+            <div>
+                <label for="termsAndConditions">I Agree To The Terms And Conditions: </label>
+                <input type="checkbox" id="termsAndConditions" required>
+            </div>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
