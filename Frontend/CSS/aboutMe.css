@@ -1,11 +1,35 @@
 h1 {
-    color: gray;
+/*    color: #FF0000;*/
+    /*color: rgba(255,0,0,.5); RGBA is for Red, Green, Blue, Alpha.*/
+/*
+    border-color: darkred;
+    border-width: 5px;
+    border-style: solid;
+*/
+    
+    border: darkred 5px solid;
 }
 
 h4 {
-    color: red;
+/*    color: #00FF00;*/
+/*    background: rgb(255,100,80);*/
+    color: #FFFFFF;
 }
 
 li {
-    color: green;
+/*    color: #0000FF;*/
+    color: #FFFFFF;
+}
+
+body {
+/*
+    background: url('http://s1.favim.com/orig/150413/colorful-marble-tumblr-wallpaper-Favim.com-2645231.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+    background: gray;
+}
+
+div {
+    background: rgba(0,0,0,.4);
 }
