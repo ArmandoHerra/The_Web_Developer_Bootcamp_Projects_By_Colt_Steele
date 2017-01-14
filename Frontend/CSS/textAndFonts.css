@@ -1,0 +1,43 @@
+/* Font-Family */
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-family: Georgia;
+}
+
+/* Font-Size */
+
+h1 {
+    font-size: 75px;
+}
+
+span {
+    font-size: 2.0em;   
+}
+
+/* Font-Weight */
+
+p {
+    font-weight: 600;
+}
+
+/* Line-Height */
+
+p {
+    line-height: 1.5;
+}
+
+/* Text-Align */
+
+p {
+    text-align: center;
+}
+
+/* Text-Decoration */
+
+p {
+    text-decoration: underline;
+}
