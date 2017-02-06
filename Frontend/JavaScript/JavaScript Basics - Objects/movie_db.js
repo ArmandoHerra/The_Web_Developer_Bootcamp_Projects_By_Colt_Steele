@@ -22,7 +22,6 @@ var movies = [
 
 function buildResultString(movie) {
     
-    "use strict";
     var result = "You have ";
     
     if (movie.hasWatched) {
@@ -39,7 +38,6 @@ function buildResultString(movie) {
 
 movies.forEach(function (movie) {
     
-    "use strict";
     console.log(buildResultString(movie));
     
 });
