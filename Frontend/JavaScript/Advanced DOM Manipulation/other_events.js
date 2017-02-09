@@ -1,14 +1,13 @@
 /*jslint devel: true */
 
-var firstLi = document.querySelector("li");
+var allLi = document.querySelectorAll("li");
 
-alert("CONNECTED");
-
-firstLi.addEventListener("mouseover", function () {
-    console.log("Hovered!");
-    firstLi.classList.add("OnHoverEnter");
-});
-
-firstLi.addEventListener("mouseout", function () {
-    firstLi.classList.remove("OnHoverEnter");
-});
+for (var i = 0; i < allLi.length; i++) {
+    allLi[i].addEventListener("mouseover", function () {
+        this.classList.add("OnHoverEnter");
+    });
+    
+    allLi[i].addEventListener("mouseout", function () {
+        this.classList.remove("OnHoverEnter");
+    });
+}
