@@ -13,3 +13,33 @@ console.log($("ul").html());
 $("h1").html("<h1>Intro to <a href='https://jquery.com/'>jQuery</a></h1>");
 
 // Get the value of an attribute for the first element in the set of matched elements or set one or more attributes for every matched element.
+$("img").css("width", "300px");
+
+var image = document.querySelector("img");
+
+image.addEventListener("click", function () {
+    
+    $("img").attr("src", "ermine.jpg");
+    $("img").css("width", "600px");
+    
+});
+
+var button = document.getElementById("button1");
+console.log($("input").attr("type"));
+
+button.addEventListener("click", function () {
+   
+    $("input").attr("type", "color");
+    
+});
+
+// Get the current value of the first element in the set of matched elements or set the value of every matched element.
+console.log($("input").val());
+
+var button2 = document.getElementById("button2");
+
+button2.addEventListener("click", function () {
+    
+    alert($("input").val()); 
+    
+});
