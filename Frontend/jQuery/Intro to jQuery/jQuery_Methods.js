@@ -43,3 +43,53 @@ button2.addEventListener("click", function () {
     alert($("input").val()); 
     
 });
+
+// Adds the specified class(es) to each element in the set of matched elements.
+var button3 = document.getElementById("button3");
+var button5 = document.getElementById("button5");
+
+button3.addEventListener("click", function () {
+   
+    $("h2").addClass("correct");
+    
+});
+
+button5.addEventListener("click", function () {
+   
+    $("h2").addClass("wrong");
+    
+});
+
+// Remove a single class, multiple classes, or all classes from each element in the set of matched elements.
+
+var button4 = document.getElementById("button4");
+var button6 = document.getElementById("button6");
+
+button4.addEventListener("click", function () {
+   
+    $("h2").removeClass("correct");
+    
+});
+
+button6.addEventListener("click", function () {
+   
+    $("h2").removeClass("wrong");
+    
+});
+
+// Add or remove one or more classes from each element in the set of matched elements, depending on either the class's presence or the value of the state argument.
+
+var button7 = document.getElementById("button7");
+var button8 = document.getElementById("button8");
+
+button7.addEventListener("click", function () {
+   
+    $("h2").toggleClass("correct");
+    
+});
+
+button8.addEventListener("click", function () {
+   
+    $("h2").toggleClass("wrong");
+    
+});
