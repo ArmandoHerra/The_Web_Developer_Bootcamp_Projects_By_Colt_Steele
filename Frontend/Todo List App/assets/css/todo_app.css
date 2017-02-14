@@ -1,3 +1,17 @@
+body {
+    font-family: 'Roboto';
+    background: #5C258D; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #5C258D , #4389A2); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #5C258D , #4389A2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#container {
+    width: 500px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
 h1 {
     background: #2980b9;
     color: white;
@@ -6,51 +20,6 @@ h1 {
     text-transform: uppercase;
     font-size: 24px;
     font-weight: normal;
-}
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.fa-plus {
-    float: right;
-}
-
-body {
-    font-family: 'Roboto';
-    background: #5C258D; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #5C258D , #4389A2); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #5C258D , #4389A2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-li {
-    background: #FFFFFF;
-    height: 40px;
-    line-height: 40px;
-    color: #666666;
-}
-
-li:nth-child(2n) {
-    background: #F7F7F7;
-}
-
-span {
-    background: #e74c3c;
-    height: 40px;
-    margin-right: 20px;
-    text-align: center;
-    color: white;
-    width: 0px;
-    display: inline-block;
-    transition: 0.25s linear;
-    opacity: 0;
-}
-
-li:hover span {
-    width: 40px;
-    opacity: 1.0;
 }
 
 input {
@@ -69,11 +38,42 @@ input:focus {
     outline: none;
 }
 
-#container {
-    width: 360px;
-    margin: 100px auto;
-    background: #f7f7f7;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background: #FFFFFF;
+    height: 40px;
+    line-height: 40px;
+    color: #666666;
+}
+
+li:nth-child(2n) {
+    background: #F7F7F7;
+}
+
+li:hover span {
+    width: 40px;
+    opacity: 1.0;
+}
+
+span {
+    background: #e74c3c;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0px;
+    display: inline-block;
+    transition: 0.25s linear;
+    opacity: 0;
+}
+
+.fa-plus {
+    float: right;
 }
 
 .completed {
