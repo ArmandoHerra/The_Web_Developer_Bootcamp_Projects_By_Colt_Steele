@@ -1,0 +1,14 @@
+{
+  "name": "expres_assignment_app",
+  "version": "1.0.0",
+  "description": "An express assignment app made to practice my express app creation method and also to practice routing.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Armando Herra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
